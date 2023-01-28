@@ -1,4 +1,4 @@
-module github.com/coming-chat/go-sui
+module github.com/sentioxyz/go-sui-sdk
 
 go 1.18
 
