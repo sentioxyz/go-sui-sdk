@@ -118,7 +118,7 @@ type SignedTransactionSerializedSig struct {
 
 type TransferObject struct {
 	Recipient Address   `json:"recipient"`
-	ObjectRef ObjectRef `json:"object_ref"`
+	ObjectRef ObjectRef `json:"objectRef"`
 }
 type ModulePublish struct {
 	Modules [][]byte `json:"modules"`
@@ -171,7 +171,7 @@ type SenderSignedData struct {
 	Sender     *Address   `json:"sender"`
 	GasPayment *ObjectRef `json:"gasPayment"`
 	GasBudget  uint64     `json:"gasBudget"`
-	// GasPrice     uint64      `json:"gasPrice"`
+	GasPrice   uint64     `json:"gasPrice"`
 }
 
 type OwnedObjectRef struct {
