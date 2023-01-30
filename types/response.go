@@ -35,12 +35,12 @@ type TransactionEffects struct {
 	Events            []Event         `json:"events,omitempty"`
 	Dependencies      []string        `json:"dependencies,omitempty"`
 
-	// SharedObjects []ObjectRef      `json:"sharedObjects"`
-	Created   []OwnedObjectRef `json:"created,omitempty"`
-	Mutated   []OwnedObjectRef `json:"mutated,omitempty"`
-	Unwrapped []OwnedObjectRef `json:"unwrapped,omitempty"`
-	Deleted   []ObjectRef      `json:"deleted,omitempty"`
-	Wrapped   []ObjectRef      `json:"wrapped,omitempty"`
+	SharedObjects []ObjectRef      `json:"sharedObjects,omitempty"`
+	Created       []OwnedObjectRef `json:"created,omitempty"`
+	Mutated       []OwnedObjectRef `json:"mutated,omitempty"`
+	Unwrapped     []OwnedObjectRef `json:"unwrapped,omitempty"`
+	Deleted       []ObjectRef      `json:"deleted,omitempty"`
+	Wrapped       []ObjectRef      `json:"wrapped,omitempty"`
 }
 
 func (te *TransactionEffects) GasFee() uint64 {
