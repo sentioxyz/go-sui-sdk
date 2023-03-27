@@ -2,11 +2,11 @@ package client
 
 import (
 	"context"
-	"github.com/coming-chat/go-sui/types"
+	"github.com/sentioxyz/go-sui-sdk/types"
 	"os"
 	"testing"
 
-	"github.com/coming-chat/go-sui/account"
+	"github.com/sentioxyz/go-sui-sdk/account"
 	"github.com/stretchr/testify/require"
 )
 

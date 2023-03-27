@@ -5,8 +5,8 @@ import (
 
 	"testing"
 
-	"github.com/coming-chat/go-sui/account"
-	"github.com/coming-chat/go-sui/types"
+	"github.com/sentioxyz/go-sui-sdk/account"
+	"github.com/sentioxyz/go-sui-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 
